@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Registration | Bakmi JM</title>
+    
+    <link rel="icon" type="image/x-icon" href="./Image Asset/logo full (white).png">
+    <link rel="stylesheet" href="./RegisterStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <a href="Homepage.html">
+            <img class="nav-logo" src="./Image Asset/logo (without text).png" alt="">
+        </a>
+        <div class="nav-right">
+            <ul class="nav-item-list">
+                <li><a href="Homepage.html" class="nav-item">Home</a></li>
+                <li><a href="" class="nav-item">Products</a></li>
+                <li><a href="about.html" class="nav-item">About Us</a></li>
+            </ul>
+            <div class="nav-line"></div>
+            <a href="register.html" class="nav-item">Membership Registration</a>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <section class="content">
+        <div class="content-text">
+            <h1 class="regis-header">Register Yourself for Free!</h1>
+            <p class="body-text">Already have an account? <a class="sign-in-link" href="">Sign in here!</a></p>
+        </div>
+        
+        <form action="">
+            <div class="input-field-list">
+                <!-- INPUT: Name -->
+                <div class="input-field">
+                    <label class="input-header" for="name">Name</label>
+                    <input class="body-text" placeholder="Enter your name" type="text" name="" id="name">
+                </div>
+
+                <!-- RADIO: Gender -->
+                <div class="input-field">
+                    <p class="input-header">Gender</p>
+                    <div class="radio-list">
+                        <div class="radio-choice">
+                            <input type="radio" name="gender" id="radio-male">
+                            <label class="body-text" for="radio-male">Male</label>
+                        </div>
+                        <div class="radio-choice">
+                            <input type="radio" name="gender" id="radio-female">
+                            <label class="body-text" for="radio-female">Female</label>
+                        </div>
+                        <div class="radio-choice">
+                            <input type="radio" name="gender" id="radio-other">
+                            <label class="body-text" for="radio-other">Other</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- INPUT: Email -->
+                <div class="input-field">
+                    <label class="input-header" for="email">Email</label>
+                    <input class="body-text" placeholder="Enter your email" type="email" name="email" id="email">
+                </div>
+
+                <!-- INPUT: Phone Number -->
+                <div class="input-field">
+                    <label class="input-header" for="phone-number">Phone Number</label>
+                    <input class="body-text" placeholder="Enter your phone number" type="text" name="phone-number" id="phone-number">
+                </div>
+
+                <!-- INPUT: Home Address -->
+                <div class="input-field">
+                    <label class="input-header" for="home-address">Home Address</label>
+                    <input class="body-text" placeholder="Enter your home address" type="text" name="home-address" id="home-address">
+                </div>
+
+                <!-- INPUT: Password -->
+                <div class="input-field">
+                    <label class="input-header" for="password">Password</label>
+                    <input class="body-text" placeholder="Enter your password" type="password" name="password" id="password">
+                </div>
+
+                <!-- INPUT: Confirm Password -->
+                <div class="input-field">
+                    <label class="input-header" for="confirm-password">Confirm Password</label>
+                    <input class="body-text" placeholder="Enter your password again" type="password" name="confirm-password" id="confirm-password">
+                </div>
+            </div>
+            <input class="btn btn-primary-red btn-regis" type="button" value="Register">
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content-wrapper">
+            <div class="footer-content-left">
+                <ul class="overview">
+                    <li><p class="footer-header">OVERVIEW</p></li>
+                    <li><a class="footer-item" href="Homepage.html">Home</a></li>
+                    <li><a class="footer-item" href="">Our Menu</a></li>
+                    <li><a class="footer-item" href="">Event & Services</a></li>
+                    <li><a class="footer-item" href="" >About Us</a></li>
+                    <li><a class="footer-item" href="Register.html">Register Membership</a></li>
+                </ul>
+        
+                <div class="social-media">
+                    <p class="footer-header">SOCIAL MEDIA</p>
+                    <ul class="social-media-list">
+                        <li><a href="https://www.facebook.com/"><img src="./Image Asset/facebook logo.png" alt="Facebook" class="social-media-icon"></a></li>
+                        <li><a href="https://www.twitter.com/"><img src="./Image Asset/twitter logo.png" alt="Twitter" class="social-media-icon"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="./Image Asset/instagram logo.png" alt="Instagram" class="social-media-icon"></a></li>
+                        <li><a href="https://www.whatsapp.com"><img src="./Image Asset/whatsapp logo.png" alt="WhatsApp" class="social-media-icon"></a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer-content-right">
+                <p class="footer-header">BRANCHES</p>
+                <div class="region-list">
+                    <ul class="branch-list">
+                        <li><p class="footer-item">Greater Jakarta</p></li>
+                        <li><p class="branch-location">Jl. Senopati No. 12, Selong, Kebayoran Baru, Jakarta Selatan, DKI Jakarta 12345</p></li>
+                        <li><p class="branch-location">Jl. Kemanggisan Utama No. 3, Kemanggisan, Palmerah, Jakarta Barat, DKI Jakarta 12345</p></li>
+                    </ul>
+                    <ul class="branch-list">
+                        <li><p class="footer-item">Bandung</p></li>
+                        <li><p class="branch-location">Jl. Dr. Setiabudi No 203, Isola, Sukasari, Bandung, Jawa Barat 12345</p></li>
+                        <li><p class="branch-location">Jl. Moh. Toha, Ciateul, Regol, Bandung, Jawa Barat 12345</p></li>
+                    </ul>
+                    <ul class="branch-list">
+                        <li><p class="footer-item">Surabaya</p></li>
+                        <li><p class="branch-location">Jl. Yani No. 94, Wonokromo, Wonokromo, Surabaya, Jawa Timur 12345</p></li>
+                        <li><p class="branch-location">Jl. Kendung No 14, Sememi, Benowo, Surabaya, Jawa Timur 12345</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="body-text">Bakmi JM 2022 © All Rights Reserved</p>
+    </footer>
+</body>
+</html>
