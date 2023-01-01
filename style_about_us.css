@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* definition */
+:root {
+    --white: #ffffff;
+    --gray: #D7D7D7;
+    --black: #1E1E1E;
+    --BJM-red: #B22B2B;
+    --BJM-yellow: #FFC844;
+}
+
+/* reset */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+    line-height: 150%;
+}
+
+img
+{
+    max-width: 100%;
+    display: block;
+}
+
+/* header */
+
+/* BUTTON COMPONENTS */
+
+.btn {
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.btn-primary-red {
+    background-color: var(--BJM-red);
+    color: var(--white);
+    border: 0px;
+}
+
+.btn-primary-white {
+    background-color: var(--BJM-white);
+    color: var(--BJM-red);
+    border: 0px;
+}
+
+.btn-secondary-red {
+    background-color: transparent;
+    border: 2px solid var(--red);
+    color: var(--BJM-red);
+}
+
+.btn-secondary-white {
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+
+    width: 100%;
+    position: static;
+    left: 0px;
+    top: 0px;
+}
+
+.nav-logo {
+    width: 100px;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+.nav-item-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+}
+
+.nav-item {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.nav-line {
+    width: 2px;
+    height: 40px;
+    border-radius: 100px;
+
+    background-color: var(--white);
+    opacity: 0.2;
+}
+
+
+#header_container
+{
+    text-align: center;
+    background-image: url("./Image Asset/header_img.png");
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* grid-column: 3; */
+}
+
+.about_us_header
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.header_item
+{
+    padding: 2rem 0px;
+    color: white;
+}
+
+#about_us_content
+{
+    width: 50% ;
+}
+
+/* main */
+#main_container
+{
+    margin: 2rem auto;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 60%;
+    gap: 5rem ;
+}
+
+.content_container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem ;
+
+}
+
+.content_header
+{
+    color: var(--BJM-red);
+    font-weight: 600;
+}
+
+#history
+{
+    text-align: right;
+}
+
+#goals_list >*
+{
+    list-style: inside;
+}
+
+.content > *
+{
+    margin: 1rem;
+}
+/* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 8rem 2rem;
+    gap: 4rem;
+    background-color: var(--black);
+    
+    color: var(--white);
+}
+
+.footer-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4rem;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0.5rem;
+}
+
+.social-media-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
+}
+
+.footer-header {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.footer-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4rem;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
+}
+
+.footer-item {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--white);
+}
+
+.footer-content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 1rem;
+}
+
+.region-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4rem;
+}
+
+.branch-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 12rem;
+    gap: 1rem;
+}
+
+.branch-location {
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+
