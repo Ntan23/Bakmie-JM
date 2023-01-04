@@ -124,7 +124,7 @@ nav {
 #header_container
 {
     text-align: center;
-    background-image: url("./Image Asset/header_img.png");
+    background-image: url("./Image Asset/es_header_img.png");
 
     display: flex;
     flex-direction: column;
@@ -133,7 +133,7 @@ nav {
     /* grid-column: 3; */
 }
 
-.about_us_header
+.es_header
 {
     width: 100%;
     margin: 0 auto;
@@ -142,54 +142,89 @@ nav {
 .header_item
 {
     padding: 2rem 0px;
-    color: white;
+    color: var(--white);
 }
 
-#about_us_content
+#es_content
 {
     width: 50% ;
     padding-bottom: 5rem;
 }
 
-/* main */
-#main_container
-{
-    margin: 2rem auto;
 
+/* main body */
+.main_body_container
+{
+    padding-top:5rem;
+    padding-bottom: 5rem;
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    width: 60%;
-    gap: 5rem ;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 50%;
+    margin: 2rem auto;
+    gap: 5rem;
 }
 
-.content_container
+.main_body_content
 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2rem ;
-
+    gap: 3rem;
 }
 
-.content_header
+.content_text
+{
+    margin: auto 0;
+    
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.content_text > h2
 {
     color: var(--BJM-red);
     font-weight: 600;
 }
 
-#history
+#content_text_reverse > *
 {
     text-align: right;
 }
 
-#goals_list >*
+/* contact us */
+.contact_us_container
 {
-    list-style: inside;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+
+    box-shadow: 0px 12px 48px rgba(66, 71, 86, 0.15);
+    border-radius: 12px;
 }
 
-.content > *
+.contact_us_text > p
 {
-    margin: 1rem;
+    text-align: center;
 }
+
+.bold_this_text
+{
+    font-weight: 700;
+}
+
+.line_design  
+{
+    background: var(--BJM-yellow);
+    width: 0.1rem;
+    height: 90%;
+    margin: auto;
+}
+
 /* FOOTER */
 
 footer {
@@ -286,51 +321,3 @@ footer {
 }
 
 
-/* Phone media*/
-
-@media(max-width:800px)
-{
-    #main_container
-    {
-        width: 90%;
-        gap: 2rem;
-    }
-
-    .content_container
-    {
-        justify-content: center;
-        align-items: center;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .content_header
-    {
-        text-align: center;
-    }
-
-    .content > p
-    {
-        text-align: justify;
-    }
-
-    .history_image
-    {
-        order: -1;
-        justify-self: center;
-    }
-
-    #about_us_content
-    {
-        width: 90%;
-    }
-}
-
-/* global for all other pages */
-@media(max-width:800px)
-{
-    nav 
-    {
-        padding: 0.5rem 2rem;
-    }   
-}
