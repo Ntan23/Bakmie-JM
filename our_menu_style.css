@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+#header-container {
+    height: 556px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0.8) 100%), url(./our_menu.png), #EFEFEF;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8rem;
+    gap: 548px;
+    position: static;
+    height: 154px;
+    left: 0px;
+    top: 0px;
+}
+
+#logo {
+    width: 140px;
+    height: 90px;
+}
+
+#nav-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+}
+
+#left-nav-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 80px;
+}
+
+#home-text {
+    text-decoration: none;
+    width: 69px;
+    height: 36px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#product-text {
+    text-decoration: none;
+    width: 102px;
+    height: 36px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#about-text {
+    text-decoration: none;
+    width: 104px;
+    height: 36px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#line {
+    width: 5px;
+    height: 48px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 100px;
+}
+
+#register-text {
+    text-decoration: none;
+    width: 243px;
+    height: 36px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
