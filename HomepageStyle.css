@@ -373,15 +373,15 @@ nav {
 }
 
 .img-txt-container1 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0.8) 100%), url(./Content1.jpg), #EFEFEF;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0.8) 100%), url("./Image Asset/Content1.jpg"), #EFEFEF;
 }
 
 .img-txt-container2 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0.8) 100%), url(./Content2.jpg), #EFEFEF;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0.8) 100%), url("./Image Asset/Content2.jpg"), #EFEFEF;
 }
 
 .img-txt-container3 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0.8) 100%), url(./Content3.jpg), #EFEFEF;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0.8) 100%), url("./Image Asset/Content3.jpg"), #EFEFEF;
 }
 
 /* Content 2 */
@@ -600,8 +600,8 @@ nav {
 footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 4rem 5rem;
+    align-items: flex-start;
+    padding: 4rem 15rem;
     gap: 120px;
     background: #1E1E1E;
 }
