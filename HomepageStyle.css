@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+* {
+    font-family: 'Quicksand';
+    font-style: normal;
+}
+
 #container1 {
     height: 1080px;
     background: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Navbar */
@@ -12,7 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 8rem;
-    gap: 548px;
+    gap: 25rem;
     position: static;
     height: 40px;
     left: 0px;
@@ -41,42 +50,9 @@ nav {
     gap: 80px;
 }
 
-#home-text {
-    text-decoration: none;
-    width: 69px;
-    height: 36px;
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #B22B2B;
-}
-
-#product-text {
-    text-decoration: none;
-    width: 102px;
-    height: 36px;
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #B22B2B;
-}
-
-#about-text {
-    text-decoration: none;
+#nav-text {
     width: 104px;
     height: 36px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 150%;
@@ -95,11 +71,8 @@ nav {
 }
 
 #register-text {
-    text-decoration: none;
     width: 243px;
     height: 36px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 150%;
@@ -151,8 +124,6 @@ nav {
 #text1 {
     width: 700px;
     height: 258px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 700;
     font-size: 72px;
     line-height: 120%;
@@ -165,8 +136,6 @@ nav {
 #text2 {
     width: 700px;
     height: 108px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
@@ -198,11 +167,8 @@ nav {
 }
 
 #purchase-txt {
-    text-decoration: none;
     width: 200px;
     height: 42px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 180%;
@@ -224,7 +190,6 @@ nav {
 }
 
 #our-menu-txt {
-    text-decoration: none;
     width: 135px;
     height: 42px;
     font-family: 'Quicksand';
@@ -274,12 +239,9 @@ nav {
 }
 
 #content1_1-text1 {
-    text-decoration: none;
     text-align: center;
     width: 314px;
     height: 43px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 120%;
@@ -297,12 +259,9 @@ nav {
 }
 
 #content1_1-text2 {
-    text-decoration: none;
     text-align: center;
     width: 303px;
     height: 43px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 120%;
@@ -349,10 +308,8 @@ nav {
 }
 
 #content1_2-txt1 {
-    width: 389.33px;
+    width: 389px;
     height: 38px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 120%;
@@ -361,10 +318,8 @@ nav {
 }
 
 #content1_2-txt2 {
-    width: 389.33px;
+    width: 389px;
     height: 72px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
@@ -433,8 +388,6 @@ nav {
 #content2_1-txt1 {
     width: 564px;
     height: 86px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 120%;
@@ -447,8 +400,6 @@ nav {
 #content2_1-txt2 {
     width: 680px;
     height: 36px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
@@ -470,11 +421,8 @@ nav {
 }
 
 #more-about-us-txt {
-    text-decoration: none;
     width: 199px;
     height: 42px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 180%;
@@ -505,10 +453,8 @@ nav {
 }
 
 #booking-desc {
-    width: 718.5px;
+    width: 718px;
     height: 84px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     font-size: 28px;
     line-height: 150%;
@@ -530,11 +476,8 @@ nav {
 }
 
 #book-now-txt {
-    text-decoration: none;
     width: 145px;
     height: 42px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 180%;
@@ -561,8 +504,6 @@ nav {
 #contact-us-desc {
     width: 450px;
     height: 84px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     font-size: 28px;
     line-height: 150%;
@@ -585,11 +526,8 @@ nav {
 }
 
 #contact-us-txt {
-    text-decoration: none;
     width: 148px;
     height: 42px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 180%;
@@ -628,8 +566,6 @@ footer {
 }
 
 #footer-main-txt {
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 700;
     font-size: 28px;
     line-height: 150%;
@@ -637,9 +573,6 @@ footer {
 }
 
 #footer-subtxt {
-    text-decoration: none;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
@@ -690,8 +623,6 @@ footer {
 }
 
 #branches-desc {
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     line-height: 150%;
     color: #FFFFFF;
@@ -706,8 +637,6 @@ footer {
 }
 
 #copyright-txt {
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;

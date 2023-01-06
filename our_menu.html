@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="./our_menu_style.css">
 </head>
 <body>
+    <!-- header -->
     <div id="header-container">
         <nav>
             <img id="logo" src="./Image Asset/Logo (without text).png" alt="">
             <div id="nav-text-container">
                 <div id="left-nav-text-container">
-                    <a href="./Homepage.html" id="home-text">Home</a>
-                    <a href="./index_es.html" id="product-text">Products</a>
-                    <a href="./index_about_us.html" id="about-text">About Us</a>
+                    <a href="./Homepage.html" id="nav-text">Home</a>
+                    <a href="./index_es.html" id="nav-text">Products</a>
+                    <a href="./index_about_us.html" id="nav-text">About Us</a>
                 </div>
                 <div id="line"></div>
                 <a href="./Register.html" id="register-text">Register Membership</a>
@@ -33,7 +34,9 @@
         </div>
     </div>
 
-    <div id="menu_container">
+    <div id="content-container">
+    <!-- Our Best Sellers -->
+    <div id="best-seller-container">
         <div id="container1">
             <div id="subcontainer1">
                 <div id="rectangle"></div>
@@ -43,16 +46,311 @@
 
             <div id="subcontainer2">
                 <div id="image_container">
-                    <div id="image">
+                    <div id="image" class="one">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Classic Chicken Noodles
+                            </div>
 
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 24.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="image" class="two">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Chicken Noodles With Dumplings
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="image" class="three">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Yi Fu Mie
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div>
+                <div id="elipse-container">
+                    <div id="elipse" class="selected"></div>
+                    <div id="elipse" class="unselected"></div>
+                    <div id="elipse" class="unselected"></div>
+                </div>
+            </div>
+        </div>
 
+        <!-- Menu -->
+        <div id="menu-container">
+            <div id="menu-type-container">
+                <div id="type-container">
+                    <div id="type-text" class="selected">
+                        Noodles
+                    </div>
+
+                    <div id="rectangle2"></div>
+                </div>
+
+                <div id="type-container">
+                    <div id="type-text" class="unselected">
+                    Side Dishes
+                    </div>
+
+                    <!-- <div id="rectangle2"></div> -->
+                </div>
+
+                <div id="type-container">
+                    <div id="type-text" class="unselected">
+                        Beverages
+                    </div>
+
+                    <!-- <div id="rectangle2"></div> -->
+                </div>
+
+                <div id="type-container">
+                    <div id="type-text" class="unselected">
+                        Desserts
+                    </div>
+
+                    <!-- <div id="rectangle2"></div> -->
+                </div>
+            </div>
+
+            <div id="menu-image-container">
+                <div id="menu-images-container">
+                    <div id="image" class="one">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Classic Chicken Noodles
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 24.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="image" class="two">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Chicken Noodles With Dumplings
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="image" class="three">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Yi Fu Mie
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="menu-images-container">
+                    <div id="image" class="four">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Chicken Noodles with Stewed Broccoli
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="image" class="five">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Noodles with Cap Cay
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 32.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="image" class="six">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Spicy Seafood Noodles
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div id="info-container">
+            <div id="overview-sosmed-container">
+                <div id="overview-container">
+                    <div id="footer-main-txt">
+                        OVERVIEW
+                    </div>
+
+                    <a href="./Homepage.html" id="footer-subtxt">
+                        Home
+                    </a>
+
+                    <a href="./our_menu.html" id="footer-subtxt">
+                        Our Menu
+                    </a>
+
+                    <a href="./index_es.html" id="footer-subtxt">
+                        Events & Services
+                    </a>
+
+                    <a href="./index_about_us.html" id="footer-subtxt">
+                        About Us
+                    </a>
+
+                    <a href="./Register.html" id="footer-subtxt">
+                        Register Membership
+                    </a>
+                </div>
+
+                <div id="sosmed-container">
+                    <div id="footer-main-txt">SOCIAL MEDIA</div>
+
+                    <div id="footer-icon-container">
+                        <a href="">
+                            <img id="icon" src="./Image Asset/facebook_icon.png" alt="">
+                        </a>
+                        
+                        <a href="">
+                            <img id="icon" href="" src="./Image Asset/twitter_icon.png" alt="">
+                        </a>
+
+                        <a href="">
+                            <img id="icon" href="" src="./Image Asset/instagram_icon.png" alt="">
+                        </a>
+
+                        <a href="">
+                            <img id="icon" href="" src="./Image Asset/whatsapp_icon.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="branches-info-container">
+                <div id="footer-main-txt">
+                    BRANCHES
+                </div>
+
+                <div id="branches-info-txt-container">
+                    <div id="branches-desc-container">
+                        <div id="branches-desc" class="txt">
+                            Greater Jakarta
+                        </div>
+
+                        <div id="branches-desc" class="subtxt">
+                            Jl. Senopati No. 12, Selong, Kebayoran Baru, Jakarta Selatan, DKI Jakarta 12345
+                        </div>
+
+                        <div id="branches-desc" class="subtxt">
+                            Jl. Kemanggisan Utama No. 3, Kemanggisan, Palmerah, Jakarta Barat, DKI Jakarta 12345
+                        </div>
+                    </div>
+
+                    <div id="branches-desc-container">
+                        <div id="branches-desc" class="txt">
+                            Bandung
+                        </div>
+
+                        <div id="branches-desc" class="subtxt">
+                            Jl. Dr. Setiabudi No 203, Isola, Sukasari, Bandung, Jawa Barat 12345
+                        </div>
+
+                        <div id="branches-desc" class="subtxt">
+                            Jl. Moh. Toha, Ciateul, Regol, Bandung, Jawa Barat 12345
+                        </div>
+                    </div>
+
+                    <div id="branches-desc-container">
+                        <div id="branches-desc" class="txt">
+                            Surabaya
+                        </div>
+
+                        <div id="branches-desc" class="subtxt">
+                            Jl. Yani No. 94, Wonokromo, Wonokromo, Surabaya, Jawa Timur 12345
+                        </div>
+
+                        <div id="branches-desc" class="subtxt">
+                            Jl. Kendung No 14, Sememi, Benowo, Surabaya, Jawa Timur 12345
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="copyright-txt">
+            Bakmi JM 2022 © All Rights Reserved
+        </div>
+    </footer>
 </body>
 </html>

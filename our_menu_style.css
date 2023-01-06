@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+* {
+    font-family: 'Quicksand';
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
 #header-container {
     height: 556px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0.8) 100%), url("./Image Asset/our_menu.png"), #EFEFEF;
@@ -12,7 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 8rem;
-    gap: 548px;
+    gap: 25rem;
     position: static;
     height: 154px;
     left: 0px;
@@ -40,36 +49,9 @@ nav {
     gap: 80px;
 }
 
-#home-text {
-    text-decoration: none;
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#product-text {
-    text-decoration: none;
-    font-family: 'Quicksand';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 150%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#about-text {
-    text-decoration: none;
-    font-family: 'Quicksand';
-    font-style: normal;
+#nav-text {
+    width: 104px;
+    height: 36px;
     font-weight: 600;
     font-size: 22px;
     line-height: 150%;
@@ -88,9 +70,8 @@ nav {
 }
 
 #register-text {
-    text-decoration: none;;
-    font-family: 'Quicksand';
-    font-style: normal;
+    width: 243px;
+    height: 36px;
     font-weight: 600;
     font-size: 22px;
     line-height: 150%;
@@ -114,8 +95,6 @@ nav {
 #intro_text1 {
     width: 224px;
     height: 72px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 150%;
@@ -126,8 +105,6 @@ nav {
 #intro_text2 {
     width: 960px;
     height: 108px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
@@ -136,7 +113,15 @@ nav {
 }
 
 /* menu container */
-#menu_container {
+#content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+    height: 2738px;
+}
+
+#best-seller-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,8 +162,6 @@ nav {
 #text {
     width: 273px;
     height: 43px;
-    font-family: 'Quicksand';
-    font-style: normal;
     font-weight: 600;
     font-size: 36px;
     line-height: 120%;
@@ -215,7 +198,283 @@ nav {
     gap: 30px;
     width: 454px;
     height: 600px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.69%, rgba(0, 0, 0, 0.7) 100%), url("./Image Asset/Classic_Chicken_Noodles.jpg");
     border: 2px solid #CBCBCB;
     border-radius: 8px;
+}
+
+#image.one {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.69%, rgba(0, 0, 0, 0.7) 100%), url("./Image Asset/Classic-Chicken-Noodles.png");
+}
+
+#image.two {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.69%, rgba(0, 0, 0, 0.7) 100%), url("./Image Asset/Chicken-Noodles-With-Dumplings.png");
+}
+
+#image.three {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.69%, rgba(0, 0, 0, 0.7) 100%), url("./Image Asset/Yi Fu Mie.png");
+}
+
+#image.four {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.69%, rgba(0, 0, 0, 0.7) 100%), url("./Image Asset/Chicken-Noodles-With-Brocolli.png");
+}
+
+#image.five {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.69%, rgba(0, 0, 0, 0.7) 100%), url("./Image Asset/Noodles-With-CapCay.png");
+}
+
+#image.six {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 29.69%, rgba(0, 0, 0, 0.7) 100%), url("./Image Asset/Spicy-Seafood-Noodles.png");
+}
+
+#menu-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    width: 405px;
+    height: 236px;
+}
+
+#menu-text {
+    width: 405px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #FFFFFF
+}
+
+#menu-text.menu-name {
+    height: 76px;
+    font-size: 32px;
+}
+
+#menu-text.menu-desc {
+    height: 72px;
+    font-size: 24px;
+}
+
+#price-tag {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 6px 12px 8px;
+    gap: 10px;
+    width: 202px;
+    height: 56px;
+    background: #B22B2B;
+    border-radius: 10px;
+}
+
+#price-text {
+    padding: 0.5rem;
+    width: 178px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+#elipse-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12px;
+    height: 20px;
+}
+
+#elipse {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+#elipse.selected {
+    background: #B22B2B;
+}
+
+#elipse.unselected {
+    background: #D7D7D7;
+}
+
+/* Menu */
+#menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    width: 1440px;
+    height: 1417px;
+}
+
+#menu-type-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 105px;
+}
+
+#type-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px 0px;
+    gap: 36px;
+    width: 360px;
+    height: 105px;
+}
+
+#type-text {
+    text-align: center;
+    width: 150px;
+    height: 34px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 120%;
+}
+
+#type-text.selected {
+    color: #B22B2B;
+}
+
+#type-text.unselected {
+    color: #1E1E1E;
+}
+
+#rectangle2 {
+    width: 360px;
+    height: 3px;
+    background: #B22B2B;
+}
+
+#menu-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    width: 1440px;
+    height: 1248px;
+}
+
+#menu-images-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    width: 1440px;
+    height: 600px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 15rem;
+    gap: 120px;
+    bottom: 0;
+    background: #1E1E1E;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15%;
+}
+
+#overview-sosmed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+#overview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+#footer-main-txt {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+#footer-subtxt {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+#sosmed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#footer-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 10%;
+    gap: 40px;
+}
+
+#icon {
+    width: 48px;
+    height: 48px;
+}
+
+#branches-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+#branches-info-txt-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+}
+
+#branches-desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+#branches-desc {
+    font-weight: 500;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+#branches-desc.txt {
+    font-size: 24px;
+}
+
+#branches-desc.subtxt {
+    font-size: 20px;
+}
+
+#copyright-txt {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    display: flex;
+    align-items: flex-start;
+    color: #FFFFFF;
 }
