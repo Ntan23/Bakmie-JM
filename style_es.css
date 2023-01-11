@@ -200,14 +200,18 @@ nav {
     margin-bottom: 5rem;
     padding: 2rem;
     background-color: var(--white);
+
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
 
     box-shadow: 0px 12px 48px rgba(66, 71, 86, 0.15);
     border-radius: 12px;
 }
 
-.contact_us_text > p
+.contact_us_text > *
 {
     text-align: center;
 }
@@ -219,11 +223,48 @@ nav {
 
 .line_design  
 {
-    background: var(--BJM-yellow);
+    background: var(--BJM-red);
     width: 0.1rem;
     height: 90%;
     margin: auto;
 }
+
+.es_button_bn
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.75rem 2.5rem;
+    font-weight: 700;
+    border-radius:  1vh;
+    background: var(--BJM-red);
+    border: var(--BJM-red);
+    color: var(--white);
+}
+
+.es_button_bn:hover
+{
+    cursor: pointer;
+}
+
+.es_button_cu
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.75rem 2.5rem;
+    font-weight: 700;
+    border-radius:  1vh;
+    background: var(--BJM-white);
+    border: 2px solid var(--BJM-red);
+    color: var(--BJM-red); 
+}
+
+.es_button_cu:hover
+{
+    cursor: pointer;
+}
+
 
 /* FOOTER */
 
@@ -321,3 +362,21 @@ footer {
 }
 
 
+/* responsiveness */
+/* global for all other pages */
+@media(max-width:800px)
+{
+    nav 
+    {
+        padding: 0.5rem 2rem;
+    }   
+
+    .main_body_container
+    {
+        width: 80%;
+    }
+    .contact_us_container
+    {
+        width: 75%;
+    }
+}
