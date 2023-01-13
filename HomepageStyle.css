@@ -484,11 +484,6 @@ nav {
     height: 304px;
 }
 
-.reverse_content2_1-desc-container
-{
-    text-align: right;
-}
-
 #content2_1-txt-container {
     display: flex;
     flex-direction: column;
@@ -501,13 +496,11 @@ nav {
 }
 
 #content2_1-txt1 {
-    width: 564px;
+    width: 100%;
     height: 86px;
     font-weight: 700;
     font-size: 64px;
     line-height: 120%;
-    display: flex;
-    align-items: center;
     text-align: right;
     color: #B22B2B;
 }
@@ -534,11 +527,32 @@ nav {
     align-self: stretch;
 }
 
+.reverse_content2_1-desc-container
+{
+    text-align: right;
+    align-items: flex-end;
+}
+
+.reverse_content2_1-text-container > *
+{
+    text-align: right;
+}
+
 #more-about-us-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 16px 40px 20px;
+    gap: 10px;
+    width: 280px;
+    height: 78px;
+    background: #B22B2B;
+    border-radius: 8px;
+}
+
+#reverse-more-about-us-btn {    
+    margin-left: 60%;
     padding: 16px 40px 20px;
     gap: 10px;
     width: 280px;
