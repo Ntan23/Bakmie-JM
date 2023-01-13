@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Menu | Bakmie JM</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./our_menu_style.css">
 </head>
 <body>
@@ -34,6 +35,7 @@
         </div>
     </div>
 
+    <!-- content -->
     <div id="content-container">
     <!-- Our Best Sellers -->
     <div id="best-seller-container">
@@ -46,59 +48,114 @@
 
             <div id="subcontainer2">
                 <div id="image_container">
-                    <div id="image" class="one">
-                        <div id="menu-text-container">
-                            <div id="menu-text" class="menu-name">
-                                Classic Chicken Noodles
-                            </div>
+                    <i class="left arrow" id="slide-left"></i>
 
-                            <div id="menu-text" class="menu-desc">
-                                Dry noodle with seafood toppings and dipping sauce
+                    <div class="menu-carousel" id="image_container">
+                        <div id="image" class="one">
+                            <div id="menu-text-container">
+                                <div id="menu-text" class="menu-name">
+                                    Classic Chicken Noodles
+                                </div>
+    
+                                <div id="menu-text" class="menu-desc">
+                                    Dry noodle with signature Bakmie JM chicken and chicken sauce
+                                </div>
+    
+                                <div id="price-tag">
+                                    <div id="price-text">Rp 24.000,00</div>
+                                </div>
                             </div>
-
-                            <div id="price-tag">
-                                <div id="price-text">Rp 24.000,00</div>
+                        </div>
+    
+                        <div id="image" class="two">
+                            <div id="menu-text-container">
+                                <div id="menu-text" class="menu-name">
+                                    Chicken Noodles With Dumplings
+                                </div>
+    
+                                <div id="menu-text" class="menu-desc">
+                                    Dry noodle with signature Bakmie JM chicken and dumplings
+                                </div>
+    
+                                <div id="price-tag">
+                                    <div id="price-text">Rp 28.000,00</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div id="image" class="three">
+                            <div id="menu-text-container">
+                                <div id="menu-text" class="menu-name">
+                                    Yi Fu Mie
+                                </div>
+    
+                                <div id="menu-text" class="menu-desc">
+                                    Dry noodle with seafood toppings and dipping sauce
+                                </div>
+    
+                                <div id="price-tag">
+                                    <div id="price-text">Rp 28.000,00</div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div id="image" class="two">
-                        <div id="menu-text-container">
-                            <div id="menu-text" class="menu-name">
-                                Chicken Noodles With Dumplings
+                    <div class="menu-carousel" id="image_container">
+                        <div id="image" class="four">
+                            <div id="menu-text-container">
+                                <div id="menu-text" class="menu-name">
+                                    Chicken Noodles with Stewed Broccoli
+                                </div>
+    
+                                <div id="menu-text" class="menu-desc">
+                                    Dry noodle with chicken with stewed brocolli toppings
+                                </div>
+    
+                                <div id="price-tag">
+                                    <div id="price-text">Rp 28.000,00</div>
+                                </div>
                             </div>
-
-                            <div id="menu-text" class="menu-desc">
-                                Dry noodle with seafood toppings and dipping sauce
+                        </div>
+    
+                        <div id="image" class="five">
+                            <div id="menu-text-container">
+                                <div id="menu-text" class="menu-name">
+                                    Noodles with Cap Cay
+                                </div>
+    
+                                <div id="menu-text" class="menu-desc">
+                                    Dry noodle with signature Bakmie JM cap cay
+                                </div>
+    
+                                <div id="price-tag">
+                                    <div id="price-text">Rp 32.000,00</div>
+                                </div>
                             </div>
-
-                            <div id="price-tag">
-                                <div id="price-text">Rp 28.000,00</div>
+                        </div>
+    
+                        <div id="image" class="six">
+                            <div id="menu-text-container">
+                                <div id="menu-text" class="menu-name">
+                                    Spicy Seafood Noodles
+                                </div>
+    
+                                <div id="menu-text" class="menu-desc">
+                                    Dry noodle with seafood toppings and spicy sauce
+                                </div>
+    
+                                <div id="price-tag">
+                                    <div id="price-text">Rp 28.000,00</div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <div id="image" class="three">
-                        <div id="menu-text-container">
-                            <div id="menu-text" class="menu-name">
-                                Yi Fu Mie
-                            </div>
-
-                            <div id="menu-text" class="menu-desc">
-                                Dry noodle with seafood toppings and dipping sauce
-                            </div>
-
-                            <div id="price-tag">
-                                <div id="price-text">Rp 28.000,00</div>
-                            </div>
-                        </div>
-                    </div>
+                    
+                    <i class="right arrow"  id="slide-right"></i>
                 </div>
 
                 <div id="elipse-container">
-                    <div id="elipse" class="selected"></div>
-                    <div id="elipse" class="unselected"></div>
-                    <div id="elipse" class="unselected"></div>
+                    <div class="elipse" id="selected"></div>
+                    <div class="elipse" id="unselected"></div>
                 </div>
             </div>
         </div>
@@ -148,7 +205,7 @@
                             </div>
 
                             <div id="menu-text" class="menu-desc">
-                                Dry noodle with seafood toppings and dipping sauce
+                                Dry noodle with signature Bakmie JM chicken , chicken sauce and dumplings
                             </div>
 
                             <div id="price-tag">
@@ -164,7 +221,7 @@
                             </div>
 
                             <div id="menu-text" class="menu-desc">
-                                Dry noodle with seafood toppings and dipping sauce
+                                Dry noodle with signature Bakmie JM chicken , chicken sauce and dumplings
                             </div>
 
                             <div id="price-tag">
@@ -198,7 +255,7 @@
                             </div>
 
                             <div id="menu-text" class="menu-desc">
-                                Dry noodle with seafood toppings and dipping sauce
+                                Dry noodle with chicken , stewed brocolli toppings and dipping sauce
                             </div>
 
                             <div id="price-tag">
@@ -214,7 +271,7 @@
                             </div>
 
                             <div id="menu-text" class="menu-desc">
-                                Dry noodle with seafood toppings and dipping sauce
+                                Dry noodle with signature Bakmie JM cap cay
                             </div>
 
                             <div id="price-tag">
@@ -230,7 +287,7 @@
                             </div>
 
                             <div id="menu-text" class="menu-desc">
-                                Dry noodle with seafood toppings and dipping sauce
+                                Dry noodle with seafood toppings and spicy sauce
                             </div>
 
                             <div id="price-tag">
@@ -353,4 +410,5 @@
         </div>
     </footer>
 </body>
+    <script src="./our_menu.js"></script>
 </html>
