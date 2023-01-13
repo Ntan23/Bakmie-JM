@@ -1,8 +1,6 @@
 let carousels = $(".menu-carousel")
 let indicators = $(".elipse")
 
-elipse = document.getElementsByClassName("elipse")
-
 carousels.hide()
 indicators.hide()
 
@@ -15,6 +13,10 @@ indicators.show(1000);
 
 $("#slide-right").click(() => {
     carousels.eq(current).hide()
+
+    var temp =  document.getElementById("selected")
+    document.getElementById("unselected").id = "selected"
+    temp.id = "unselected"
 
     current++
 
@@ -29,6 +31,10 @@ $("#slide-right").click(() => {
 $("#slide-left").click(() => {
     carousels.eq(current).hide()
     
+    var temp =  document.getElementById("selected");
+    document.getElementById("unselected").id = "selected";
+    temp.id = "unselected";
+
     current--
 
     if(current < min)
