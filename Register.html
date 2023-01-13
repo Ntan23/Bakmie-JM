@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <!-- Navbar -->
     <nav>
         <a href="Homepage.html">
@@ -50,7 +51,7 @@
                 <!-- INPUT: Name -->
                 <div class="input-field">
                     <label class="input-header" for="name">Name</label>
-                    <input class="body-text" placeholder="Enter your name" type="text" name="" id="name">
+                    <input class="body-text" placeholder="Enter your name" type="text" name="name" id="name">
                 </div>
 
                 <!-- RADIO: Gender -->
@@ -86,8 +87,16 @@
 
                 <!-- INPUT: Home Address -->
                 <div class="input-field">
-                    <label class="input-header" for="home-address">Home Address</label>
-                    <input class="body-text" placeholder="Enter your home address" type="text" name="home-address" id="home-address">
+                    <label class="input-header" for="home-address">Select Your City</label>
+                    <select name="home-address" id="home-address">
+                        <option value="none" disabled="disabled" selected hidden>Select your City</option>
+                        <option value="bandung">Bandung</option>
+                        <option value="jakarta">Jakarta</option>
+                        <option value="surabaya">Surabaya</option>
+                        <option value="pekanbaru">PekanBaru</option>
+                        <option value="medan">Medan</option>
+                    </select>
+                    <!-- <input class="body-text" placeholder="Select your address" type="text" name="home-address" id="home-address"> -->
                 </div>
 
                 <!-- INPUT: Password -->
@@ -102,7 +111,7 @@
                     <input class="body-text" placeholder="Enter your password again" type="password" name="confirm-password" id="confirm-password">
                 </div>
             </div>
-            <input class="btn btn-primary-red btn-regis" type="button" value="Register">
+            <input class="btn btn-primary-red btn-regis" type="submit" value="Register" id="submit">
         </form>
 
     </section>
@@ -155,4 +164,6 @@
         <p class="body-text">Bakmi JM 2022 © All Rights Reserved</p>
     </footer>
 </body>
+
+<script src="register.js"></script>
 </html>
