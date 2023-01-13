@@ -484,6 +484,11 @@ nav {
     height: 304px;
 }
 
+.reverse_content2_1-desc-container
+{
+    text-align: right;
+}
+
 #content2_1-txt-container {
     display: flex;
     flex-direction: column;

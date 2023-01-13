@@ -24,7 +24,9 @@
 
 img
 {
+    border-radius: 2vh;
     max-width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -186,7 +188,7 @@ nav {
 {
     text-align: center;
     background-image: url("./Image Asset/es_header_img.png");
-    background-size: auto 100%;
+    background-size: 100% auto;
 
     display: flex;
     flex-direction: column;
@@ -199,6 +201,7 @@ nav {
 {
     width: 100%;
     margin: 0 auto;
+    text-shadow: 0 0 2px var(--black) , 0 0 2px var(--BJM-red);
 }
 
 .header_item
@@ -231,6 +234,8 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
+    justify-items: center;
+    align-items: center;
 }
 
 .content_text
