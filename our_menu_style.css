@@ -345,13 +345,11 @@ nav {
     color: #FFFFFF
 }
 
-#menu-text.menu-name {
-    height: 76px;
+.menu-name {
     font-size: 32px;
 }
 
-#menu-text.menu-desc {
-    height: 72px;
+.menu-desc {
     font-size: 24px;
 }
 
@@ -598,4 +596,160 @@ footer {
     display: flex;
     align-items: flex-start;
     color: #FFFFFF;
+}
+
+
+/* responsiveness */
+/* global for all other pages */
+@media(max-width:800px)
+{
+    nav 
+    {
+        padding: 0.5rem 2rem;
+    }   
+
+    /* headers */
+
+    #intro_text2
+    {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    #subcontainer1
+    {
+        gap: 2rem;
+    }
+
+    #rectangle
+    {
+        width:10%;
+    }
+
+    #text
+    {
+        width: 15%;
+        text-align: center;
+    }
+
+    /* content */
+    #content-container
+    {
+        width: 100%;
+    }
+
+    /* best seller */
+    #container1
+    {
+        width: 800px;
+    }
+
+    #image
+    {
+        width: 200px;
+    }
+
+    #menu-text-container
+    {
+        width: 200px;
+        justify-content: flex-end;
+        align-items: center;
+        height: 240px;
+    }
+
+    #price-tag
+    {
+        width: 180px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #price-text
+    {
+        text-align: center;
+        margin: auto 0 ;
+        font-size: 18px;
+    }
+
+    #menu-text
+    {
+        width: 180px;
+    }
+
+    .menu-name
+    {
+        font-size: 18px;
+    }
+
+    .menu-desc
+    {
+        font-size: 10px;
+    }
+
+    #image_container {
+    
+        gap:10px
+    }
+
+    /* arrows */
+    .arrow {
+        width: 0.1rem;
+        padding: 0.5rem;
+    }
+      
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+      
+    .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+    
+
+    /* menu */
+    #menu-type-container {
+        width: 800px;
+        height: 105px;
+    }
+
+    #type-container
+    {
+        width: 180px;
+    }
+
+    #type-text
+    {
+        font-size: 20px;
+    }
+
+    #rectangle2 {
+
+        width: 170px;
+        height: 3px;
+        background: #B22B2B;
+
+    }
+
+    #menu-container {
+        padding: 0px;
+        gap: 64px;
+        width: 800px;
+        height: 1417px;
+      }
+    #menu-image-container {
+        gap: 10px;
+        width: 800px;
+        height: 600px;
+        align-items: center;
+    }
+    #menu-images-container {
+        gap: 10px;
+        width: 800px;
+        height: 600px;
+        align-items: center;
+        justify-content: center;
+    }
 }
