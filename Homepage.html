@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage | Bakmie JM</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./HomepageStyle.css">
 </head>
 <body>
@@ -60,51 +61,127 @@
     
     <!-- Content 1 -->
     <div id="container2">
-        <div id="content1-container">
-            <div id="content1_1-container">
-                <div id="content1_1-text1-container">
-                    <a id="content1_1-text1" href="our_menu.html">Food & Beverages</a>
-                </div>
-                <div id="content1_1-text2-container">
-                    <a id="content1_1-text2" href="index_es.html">Events & Services
-                        <div id="underline"></div>
-                    </a>
-                </div>
+        <div id="content1-container1">
+            <div id="container1-txt-container">
+                <div id="txt1">Our Best Sellers</div>
+                <div id="txt2">Our most favorite and beloved meals, satisfactory guaranteed!</div>
             </div>
 
-            <div id="content1_2-container">
-                <div id="content1_2-img-txt-container" class="img-txt-container1">
-                    <div id="content1_2-txt-container">
-                        <div id="content1_2-txt1">
-                            Birthday Parties
+            <div id="button-container">
+                <a href="./our_menu.html" id="txt3">See Our Menu</a>
+            </div>
+        </div>
+
+        <div id="subcontainer2">
+            <div id="image_container">
+                <i class="left arrow" id="slide-left"></i>
+
+                <div class="menu-carousel" id="image_container">
+                    <div id="image" class="one">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Classic Chicken Noodles
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with signature Bakmie JM chicken and chicken sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 24.000,00</div>
+                            </div>
                         </div>
-                        <div id="content1_2-txt2">
-                            Dry noodle with seafood toppings and dipping sauce
+                    </div>
+
+                    <div id="image" class="two">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Chicken Noodles With Dumplings
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with signature Bakmie JM chicken and dumplings
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="image" class="three">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Yi Fu Mie
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and dipping sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div id="content1_2-img-txt-container" class="img-txt-container2">
-                    <div id="content1_2-txt-container">
-                        <div id="content1_2-txt1">
-                            Wedding Ceremony
-                        </div>
-                        <div id="content1_2-txt2">
-                            Dry noodle with seafood toppings and dipping sauce
-                        </div>
-                    </div>
-                </div>
+                <div class="menu-carousel" id="image_container">
+                    <div id="image" class="four">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Chicken Noodles with Stewed Broccoli
+                            </div>
 
-                <div id="content1_2-img-txt-container" class="img-txt-container3">
-                    <div id="content1_2-txt-container">
-                        <div id="content1_2-txt1">
-                            Social Gatherings
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with chicken and stewed brocolli toppings
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
                         </div>
-                        <div id="content1_2-txt2">
-                            Dry noodle with seafood toppings and dipping sauce
+                    </div>
+
+                    <div id="image" class="five">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Noodles with Cap Cay
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with signature Bakmie JM cap cay
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 32.000,00</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="image" class="six">
+                        <div id="menu-text-container">
+                            <div id="menu-text" class="menu-name">
+                                Spicy Seafood Noodles
+                            </div>
+
+                            <div id="menu-text" class="menu-desc">
+                                Dry noodle with seafood toppings and spicy sauce
+                            </div>
+
+                            <div id="price-tag">
+                                <div id="price-text">Rp 28.000,00</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                
+                <i class="right arrow"  id="slide-right"></i>
+            </div>
+
+            <div id="elipse-container">
+                <div class="elipse" id="selected"></div>
+                <div class="elipse" id="unselected"></div>
             </div>
         </div>
     </div>
@@ -232,4 +309,5 @@
         <p class="body-text">Bakmi JM 2022 © All Rights Reserved</p>
     </footer>
 </body>
+    <script src="./menu_carousel.js"></script>
 </html>
